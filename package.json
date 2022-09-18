@@ -1,0 +1,31 @@
+{
+  "name": "chess-viewr",
+  "version": "0.0.1",
+  "description": "Chess analysis board.",
+  "productName": "Chess viewer",
+  "author": "Matt Nicholson",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "chess.js": "^0.13.4",
+    "chessground": "^8.3.5",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

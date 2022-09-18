@@ -1,0 +1,39 @@
+/* app global css */
+
+:root {
+  /* --dark: #1F2232; */
+  --dark: #16161D;
+  /* --card: #1e1e1e; */
+  --card: #09090C;
+  --accent: #CF5C36;
+}
+
+.text-small {
+  font-size: 0.8rem;
+  /* 11px on unmodified devices */
+}
+/*
+.custom-card {
+background: rgba(237, 245, 253, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(237, 245, 253, 0.1);
+} */
+.custom-card {
+  background: var(--card);
+}
+.custom-bg {
+  background: var(--dark)
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
