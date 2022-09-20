@@ -18,7 +18,7 @@ module.exports = configure(function (/* ctx */) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli/boot-files
-    boot: ["axios"],
+    boot: [],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
     css: ["app.css"],
@@ -55,6 +55,7 @@ module.exports = configure(function (/* ctx */) {
       // analyze: true,
       // env: {},
       // rawDefine: {}
+      // useFilenameHashes: false,
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,

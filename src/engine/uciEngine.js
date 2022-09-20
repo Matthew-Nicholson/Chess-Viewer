@@ -5,12 +5,13 @@ export default class Engine {
       WebAssembly.validate(
         Uint8Array.of(0x0, 0x61, 0x73, 0x6d, 0x01, 0x00, 0x00, 0x00)
       );
-
     this.stockfish = new Worker(
       wasmSupported
-        ? new URL("./stockfish.wasm.js", import.meta.url)
-        : new URL("./stockfish.js", import.meta.url)
+        ? new URL("../engine/stockfish.wasm.js", import.meta.url)
+        : new URL("../engine/stockfish.js", import.meta.url),
+      { type: "module" }
     );
+
     this.sendMessage = (message) => {
       this.stockfish.postMessage(message);
     };

@@ -1,5 +1,5 @@
 {
-  "name": "chess-viewr",
+  "name": "chess-viewer",
   "version": "0.0.1",
   "description": "Chess analysis board.",
   "productName": "Chess viewer",
@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "axios": "^0.21.1",
     "chess.js": "^0.13.4",
     "chessground": "^8.3.5",
     "mitt": "^3.0.0",

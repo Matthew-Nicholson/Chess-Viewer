@@ -3,6 +3,7 @@
 node_modules
 TODO
 .vscode
+.editorconfig
 
 # Quasar core related directories
 .quasar
