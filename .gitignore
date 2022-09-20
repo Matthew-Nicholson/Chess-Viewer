@@ -1,8 +1,8 @@
 .DS_Store
 .thumbs.db
-node_modules
+node_modules/
 TODO
-.vscode
+.vscode/
 .editorconfig
 
 # Quasar core related directories
