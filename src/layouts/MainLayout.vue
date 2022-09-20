@@ -16,7 +16,7 @@
           label="GitHub"
           icon="fa-brands fa-github"
           class="text-capitalize text-white q-mr-md"
-          href="https://www.google.ca"
+          href="https://github.com/Matthew-Nicholson/Chess-Viewer"
         />
       </q-toolbar>
     </q-header>
