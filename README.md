@@ -1,24 +1,5 @@
-# Chess viewer (chess-viewr)
+# Chess viewer (chess-viewer)
 
-Chess analysis board.
+Portable game notation (PGN) viewer and analysis board. Live demo at [chess.mattnicholson.ca](https://chess.mattnicholson.ca/).
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+[![Chess-Viewer-Minified.png](https://i.postimg.cc/GhQhgWQK/Chess-Viewer-Minified.png)](https://postimg.cc/jLDbLkBn)
